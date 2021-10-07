@@ -1,0 +1,55 @@
+/* myStyle.css */
+body {
+    background-color: #1a98ca;
+    color: #040d35;
+   }
+   h1 {
+    color: #09011a;
+    text-align: center;
+    font-size: 45;
+    font: bold;
+   }
+   h2 {
+    color: #09011a;
+    text-align: center;
+    font-size: 30;
+    font: bold;
+   }
+   h3 {
+    color: #09011a;
+    text-align: left;
+    font-size: 28;
+    font: bold;
+   }
+   h4{
+    color: #09011a;
+    text-align: left;
+    font-size: 25;
+    font: bold;
+   }
+
+   p {
+    background-color: #ffff339d;
+    color: #110558;
+    font-size: 20;
+    font: bold;
+    text-align: left;
+    border: 3px groove #FFFF33;
+   }
+   table {
+    border: 1px solid black;
+    color: #1b0350;
+    font-size: 20;
+    font: italic 200% fantasy;
+  }
+  a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: circle;
+    color: #f04de8be;
+  }
+  
+ 
