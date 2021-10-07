@@ -1,1 +1,1 @@
-# PJATK_TIN
+# This repository is the set of tin's labs :)
