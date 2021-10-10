@@ -1,0 +1,45 @@
+/* myStyle.css */
+body {
+    background-color: #ffe09ec2;
+    color: #000000;
+   }
+   h1 {
+    color: #2e052b;
+    text-align: center;
+    font-size: 45;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   h2 {
+    color: #2e052b;
+    text-align: start;
+    font-size: 36;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   h3 {
+    color: #2e052b;
+    text-align: left;
+    font-size: 28;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   h4{
+    color: #2e052b;
+    text-align: left;
+    font-size: 25;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   p {
+    color: #2e0633;
+    font-size: 20;
+    font-family: Courier New, monospace;
+    text-align: left;
+   }
+
+   .center {
+    float: right ;
+    display: block;
+    width: 50%;
+  }
+
+  
+ 
