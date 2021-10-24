@@ -2,3 +2,34 @@ body {
     background-color: #1a742693;
     color: #040d35;
    }
+   h1 {
+    color: #042e0a;
+    text-align: center;
+    font-size: 45;
+    font: bold;
+   }
+   h2 {
+    color: #09011a;
+    text-align: center;
+    font-size: 30;
+    font: bold;
+   }
+   h3 {
+    color: #09011a;
+    text-align: left;
+    font-size: 28;
+    font: bold;
+   }
+   h4{
+    color: #09011a;
+    text-align: left;
+    font-size: 25;
+    font: bold;
+   }
+
+   p {
+    color: #022507;
+    font-size: 20;
+    font:caption;
+    text-align: left;
+   }
