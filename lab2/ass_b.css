@@ -33,3 +33,19 @@ body {
     font:caption;
     text-align: left;
    }
+   textarea{
+    color: rgb(18, 211, 28);
+    background-color: rgba(116, 21, 95, 0.514);
+    padding: 8px;
+  }
+  input{
+    color: rgb(6, 46, 8);
+    background-color: rgba(221, 211, 76, 0.692);
+    padding: 8px;
+  }
+  .label{
+    color: rgb(10, 63, 12);
+    padding: 1px;
+  }
+    .mandotary {background-color: #aa606a;} 
+    .others {background-color: #da73cca2;} 
