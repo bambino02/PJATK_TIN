@@ -36,3 +36,7 @@ body {
     margin-right: 65px;
     background-color:  #869ff193;
    }
+
+   a:hover {
+    color: #FFCC00
+ }
