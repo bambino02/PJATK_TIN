@@ -36,7 +36,11 @@ body {
     margin-right: 65px;
     background-color:  #869ff193;
    }
-
+   
+   img{
+     border-style: solid;
+     border-color: #110d4b;
+   }
    a:hover {
     color: #FFCC00
  }
