@@ -1,104 +1,116 @@
-body {
-    background-color: #f7daafce;
-    color: #000000;
-}
-
-h1 {
-    color: #000000;
-    font-size: 45;
-    font-style: bold;
-    margin-left: 500px
-}
-
-h2 {
-    color: #09011a;
-    margin-left: 30px;
-    font-size: 40;
-    font-style: bold;
-}
-
-h3 {
-    color: #09011a;
-    margin-left: 30px;
-    font-size: 28;
-    color: brown;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-p {
-    font-style: initial;
-    padding-left: 20;
-    padding-right: 20;
-    font-size: 25;
-    color: #000000;
-    margin-left: 10;
-}
-
-q {
-    font-style: bold;
-    color: #f05151;
-    font-size: 22;
-    float: left;
-}
-
-.left {
-    float: left;
-    padding: 10 10px 0 0;
-}
-
-.shadow {
-    box-shadow: 40px 30px 30px black;
-}
-
-.item1 {
-    grid-area: main2;
-}
-
-.item2 {
-    grid-area: menu;
-    width: 400px;
-    /*width of your image*/
-    height: 220px;
-    /*height of your image*/
-    margin: 0;
-    /* If you want no margin */
-    padding: 0;
-    /*if your want to padding */
-}
-
-.item3 {
-    grid-area: main;
-}
-
-.item4 {
-    grid-area: right;
-}
-
-.item5 {
-    grid-area: footer;
-    padding-left: 600;
-    font-style: bold;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-areas: 'header header header header header header header' 'menu main main main2 main2 right right' 'footer footer footer footer footer footer footer';
-    grid-gap: 10px;
-}
-
-.grid-container>div {
-    text-align: left;
-    font-size: 30px;
-}
-
-img.rounded-corners {
-    border-radius: 30px;
-}
-
-.rotateimg5 {
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    transform: rotate(5deg);
-}
+    body {
+        background-color: #f7daafce;
+        color: #000000;
+    }
+    
+    @media only screen and (max-width: 800px) {
+        body {
+            background-color: lightblue;
+            display: inline-block;
+            /* multiple divs on one line! */
+            height: 100vh;
+            /* 100% of the height of the viewport */
+            width: 33.3vw;
+            /* 33% of the width of the viewport */
+        }
+    }
+    
+    h1 {
+        color: #000000;
+        font-size: 45;
+        font-style: bold;
+        margin-left: 500px
+    }
+    
+    h2 {
+        color: #09011a;
+        margin-left: 30px;
+        font-size: 40;
+        font-style: bold;
+    }
+    
+    h3 {
+        color: #09011a;
+        margin-left: 30px;
+        font-size: 28;
+        color: brown;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    p {
+        font-style: initial;
+        padding-left: 20;
+        padding-right: 20;
+        font-size: 25;
+        color: #000000;
+        margin-left: 10;
+    }
+    
+    q {
+        font-style: bold;
+        color: #f05151;
+        font-size: 22;
+        float: left;
+    }
+    
+    .left {
+        float: left;
+        padding: 10 10px 0 0;
+    }
+    
+    .shadow {
+        box-shadow: 40px 30px 30px black;
+    }
+    
+    .item1 {
+        grid-area: main2;
+    }
+    
+    .item2 {
+        grid-area: menu;
+        width: 400px;
+        /*width of your image*/
+        height: 220px;
+        /*height of your image*/
+        margin: 0;
+        /* If you want no margin */
+        padding: 0;
+        /*if your want to padding */
+    }
+    
+    .item3 {
+        grid-area: main;
+    }
+    
+    .item4 {
+        grid-area: right;
+    }
+    
+    .item5 {
+        grid-area: footer;
+        padding-left: 600;
+        font-style: bold;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-areas: 'header header header header header header header' 'menu main main main2 main2 right right' 'footer footer footer footer footer footer footer';
+        grid-gap: 10px;
+    }
+    
+    .grid-container>div {
+        text-align: left;
+        font-size: 30px;
+    }
+    
+    img.rounded-corners {
+        border-radius: 30px;
+    }
+    
+    .rotateimg5 {
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
