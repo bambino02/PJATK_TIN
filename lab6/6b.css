@@ -1,0 +1,19 @@
+body {
+    background-color: #8472e9ce;
+    color: #000000;
+}
+
+h1 {
+    color: #000000;
+    font-size: 25;
+    font-style: bold;
+    margin-left: 500px
+}
+
+button {
+    margin-left: 10px
+}
+
+input {
+    margin-left: 500px
+}
